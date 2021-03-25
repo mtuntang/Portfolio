@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<title>Michael Tuntang</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/projectStyles.css">
+<script src="https://kit.fontawesome.com/a9e1ac3ce4.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="canonical" href="https://icons.getbootstrap.com/icons/linkedin/">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left w3-quarter" style="z-index:3;width:14rem;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGjgMMJ47Oi6w/profile-displayphoto-shrink_800_800/0/1546892669467?e=1620864000&v=beta&t=ma8mAOamrZ4sjMzrMoq6GVBGNmqTXY72zz4e_B-ZWuw" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+    <a href="#aboutMe" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+  </div>
+  <hr />
+  <div class="w3-panel w3-large">
+    <div>
+      <a href="https://1drv.ms/b/s!An8P2Y1UQSOlgvB6_uzh6HRa60TH2g?e=QoSQ5e" class="m-2 btn btn-outline-danger">
+          <i class="fa fa-download"></i>Download Resume
+      </a>
+    </div>
+
+    <div>
+      <a href="mailto:mtuntang@student.ubc.ca">
+        <button type="button" class="m-2 btn btn-outline-primary">
+          <i class="fas fa-envelope-square mr-1" aria-hidden="true"></i>
+          Message Me
+        </button>
+      </a>
+    </div>
+
+    <div>
+      <a href="https://linkedin.com/in/mtuntang" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="m-2 btn btn-outline-info">
+          <i class="fab fa-linkedin mr-1" aria-hidden="true"></i>
+          Connect With Me
+        </button>
+      </a>
+    </div>
+
+    <div>
+      <a href="https://github.com/mtuntang" class="m-2 btn btn-outline-dark">
+          <i class="fa fa-github" aria-hidden="true"></i>
+          Visit My GitHub
+        </button>
+      </a>
+    </div>
+
+
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    </div>
+  </header>
+
+  <!-- First Grid -->
+  <div id="firstGrid" class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="components\projectImages\InsightUBC.png" alt="Dice Roller" style="width:100%" class="zoom">
+
+      <div class="w3-container w3-white w3-margin-top">
+        <p><b>Insight UBC</b></p>
+        <p>A RESTful web application to search courses and grades for UBC Vancouver. Users will be given a table of courses based on their requested data categories and search criterion. </p>
+        <a href="https://limitless-harbor-21538.herokuapp.com/" class="m-2 btn btn-outline-primary">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i>
+            Website
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="components\projectImages\Tweet Classifier.png" alt="Web Navigator" style="width:100%" class="zoom">
+      <div class="w3-container w3-white">
+        <p><b>U.S. Presidential (Trump-vs-Biden) Tweet Classifier</b></p>
+        <p>A machine learning model (binary classifier) to classify tweets from Donald J. Trump and Joe Biden with
+0.226 testing error. Built with Python, NumPy, scikit-learn, and pandas.</p>
+        <a href="https://github.com/mtuntang/U.S.-Presidential-Trump-vs-Biden-Tweet-Classifer-" class="m-2 btn btn-outline-dark">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            GitHub
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container">
+      <img src="components\projectImages\AutoDB.png" alt="Expense Tracker" style="width:100%" class="zoom">
+      <div class="w3-container w3-white">
+      <p><b>AutoDB</b></p>
+        <p>A private auto insurance database tool built with two user classes for employees or clients. Users can add, edit, or delete fields each with respective account restrictions.</p>
+        <a href="https://github.com/mtuntang/AutoDB" class="m-2 btn btn-outline-dark">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            GitHub
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div id="secondGrid" class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="components\projectImages\Dice Roller.png" alt="Dice Roller" style="width:100%" class="zoom">
+
+      <div class="w3-container w3-white">
+        <p><b>Dice Roller</b></p>
+        <p>A web game for two players who can't decide on something. Players can change their name, roll the dice, and then the player with the larger die wins. </p>
+        <a href="https://github.com/mtuntang/Dice-Roller" class="m-2 btn btn-outline-dark">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            GitHub
+          </button>
+        </a>
+        <a href="https://mtuntang.github.io/Dice-Roller/dicee.html" class="m-2 btn btn-outline-danger">
+            <i class="fa fa-play" aria-hidden="true"></i>
+            Play
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="components\projectImages\Web Navigator.png" alt="Web Navigator" style="width:100%" class="zoom">
+      <div class="w3-container w3-white">
+        <p><b>Web Navigator</b></p>
+        <p>A website that serves as a hub for all the links related to UBC Okanagan. It unites information for course unions, contacts, etc into one cohesive page.</p>
+        <a href="https://github.com/mtuntang/Expense-Tracker" class="m-2 btn btn-outline-dark">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            GitHub
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container">
+      <img src="components\projectImages\Expense Tracker.png" alt="Expense Tracker" style="width:100%" class="zoom">
+      <div class="w3-container w3-white">
+      <p><b>Expense Tracker</b></p>
+        <p>A Java application where users can  insert, save, and update total money spent on several categories based on user input and see
+a summary.</p>
+        <a href="https://github.com/mtuntang/Expense-Tracker" class="m-2 btn btn-outline-dark">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            GitHub
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <br />
+
+  <!-- Pagination -->
+  <!-- <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#firstGrid" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#secondGrid" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div> -->
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h1 id="aboutMe"><b>About Me</b></h1>
+    <div class="t row row-cols-xl-true">
+      <div class="col-xl-3 col-lg col-md col-sm col">
+        <div class="justify-content-center mb-2 mr-2  row">
+          <img alt="profile" src="images/prof.jpg" class="profile justify-content-end  img-fluid img-thumbnail">
+        </div>
+      </div>
+      <div class="row-eq-height col">
+        <div class="my-details rounded  row">
+          <h3>Hi there! I'm, <span class="red">Michael</span> from Vancouver, Canada.
+            <br><br>
+            I'm currently a third-year student at the <span class="red">University of British Columbia</span> majoring in Computer Science and minoring in commerce.
+            <br><br>
+            I'm  looking for a <span class="red">Summer 2021 Internship</span> so if you're looking for someone let me know!
+            <br><br>
+          </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <h3>Technical Skills</h3>
+    <!-- Progress bars / Skills -->
+    <ul>
+      <li>Languages:
+        <ul>
+          Java, Python, C/C++, SQL, JavaScript, TypeScript, HTML/CSS
+        </ul>
+      </li>
+      <li>Frameworks:
+        <ul>
+          Node.js, Mocha.js, Chai.js, npm, JUnit
+        </ul>
+      </li>
+      <li>Developer Tools:
+        <ul>
+          Git, VS Code, Visual Studio, MySQL, Jupyter Notebook, IntelliJ, Eclipse, Figma
+        </ul>
+      </li>
+      <li>Libraries:
+        <ul>
+          pandas, NumPy, scikit-learn, Matplotlib
+        </ul>
+      </li>
+    </ul>
+
+    <hr>
+
+  <!-- Contact Section -->
+  <!-- <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div> -->
+
+<!-- End page content -->
+</div>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
