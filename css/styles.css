@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #204051;
+  margin: 0 auto;
+  font-family: 'Satisfy', cursive;
+  font-size: 562.5%;
+  /* or 5.625rem --> 1rem = 16px*/
+}
+
+h2 {
+  color: #204051;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 380%;
+}
+
+h3 {
+  color: #3b6978;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 200%;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  font-size: 160%;
+}
+
+hr {
+  border: 10px dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/* *****************************CLASS SELECTOR***************************** */
+.circular-profile {
+  border-radius: 50%;
+  display: block;
+  margin: 1.25rem auto;
+  width: 30%;
+  height: 30%;
+}
+.profile-picture {
+  border-radius: 90%;
+  display: block;
+  margin: 1.25rem auto;
+  width: 60%;
+  height: 10%;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 6.25rem;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18.75rem;
+  top: 3.125rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 18.75rem;
+  bottom: 18.75rem;
+}
+
+.middle-container {
+  padding-top: 100px;
+  margin: 0;
+}
+
+.profile {
+  width: 50%;
+  margin: 0 auto 6.25rem auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 9.375rem auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  margin: 9.375rem auto;
+}
+
+.design-dev-desc {
+  clear: right;
+  font-weight: 500;
+}
+
+.resume-desc {
+  clear: left;
+  font-weight: 500;
+}
+
+.resume-link {
+  text-decoration: none;
+  padding: 0.3125rem 0;
+  border-bottom: 0.125 solid #0972b4;
+  color: #0972b4;
+  text-shadow: none;
+}
+
+.resume-link:hover {
+  border-bottom: 0.125rem solid #ff9800;
+  color: #ff9800;
+  transition: max-width 0.5s;
+  max-width: 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Indie Flower', cursive;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.625em 0.875rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.intro-text {
+  padding: 3.125rem 0;
+  margin: auto;
+}
+
+.programmer-picture {
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 75px;
+}
+
+.resume {
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin: 0 0 75px 75px;
+}
+
+/* *****************************ID SELECTOR***************************** */
