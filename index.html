@@ -6,7 +6,8 @@
 <link rel="stylesheet" href="css/projectStyles.css">
 <link rel="icon" href="images/favicon-M.ico">
 <script src="https://kit.fontawesome.com/a9e1ac3ce4.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,17 +27,22 @@
 <body class="w3-light-grey w3-auto" style="max-width:1600px">
 
   <!-- Sidebar/menu -->
-  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left w3-quarter" style="z-index:3; width:14rem;" id="mySidebar"><br>
+  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left w3-quarter" style="z-index:3; width:14rem;"
+    id="mySidebar"><br>
     <div class="w3-container">
-      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+        title="close menu">
         <i class="fa fa-remove"></i>
       </a>
       <h4><b>MICHAEL'S PORTFOLIO</b></h4>
     </div>
     <div class="w3-bar-block">
-      <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
-      <a href="#aboutMe" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
-      <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>SKILLS</a>
+      <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
+          class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a>
+      <a href="#aboutMe" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+          class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+      <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+          class="fa fa-user fa-fw w3-margin-right"></i>SKILLS</a>
     </div>
     <hr />
     <div class="w3-panel w3-large">
@@ -77,14 +83,16 @@
   </nav>
 
   <!-- Overlay effect when opening sidebar on small screens -->
-  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+    title="close side menu" id="myOverlay"></div>
 
   <!-- !PAGE CONTENT! -->
   <div class="w3-main" style="margin-left:300px">
 
     <!-- Header -->
     <header id="portfolio">
-      <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+      <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+          class="fa fa-bars"></i></span>
       <div class="w3-container">
         <h1><b>My Projects</b></h1>
       </div>
@@ -92,11 +100,45 @@
 
     <!-- First Grid -->
     <div class="w3-third w3-container w3-margin-bottom">
+      <img src="components\projectImages\Snake.png" alt="Snake" style="width:100%" class="zoom">
+      <div class="w3-container w3-white w3-margin-bottom">
+        <p><b>Snake Game</b></p>
+        <p>An iteration of the classic snake game you'd expect to find in old Nokia phones. Instead of dying
+          immediately, you get to choose to continue with your previous run's snake size. </p>
+        <a href="https://github.com/mtuntang/Snake" class="m-2 btn btn-outline-dark">
+          <i class="fa fa-github" aria-hidden="true"></i>
+          GitHub
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="components\projectImages\What-The-Fridge.png" alt="What-The-Fridge" style="width:100%" class="zoom">
+      <div class="w3-container w3-white w3-margin-bottom">
+        <p><b>What-The-Fridge</b></p>
+        <p>A web solution to tracking grocery items. Users can have manage multiple fridges as well as log their fridge
+          items and create grocery lists. </p>
+        <a href="https://github.com/What-The-Fridge" class="m-2 btn btn-outline-dark">
+          <i class="fa fa-github" aria-hidden="true"></i>
+          GitHub
+          </button>
+        </a>
+        <a href="https://what-the-fridge.adventurous-hachi.com/" class="m-2 btn btn-outline-primary">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i>
+          Website
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
       <img src="components\projectImages\Scribe.png" alt="Scribe" style="width:100%" class="zoom">
       <div class="w3-container w3-white">
         <p><b>Scribe</b></p>
         <p>
-          A Google Keep clone made with React, JavaScript (JSX), and HTML/CSS. This is an ongoing project that will updated throughout summer 2021.
+          A Google Keep clone made with React, JavaScript (JSX), and HTML/CSS. This project has been shelved at the
+          moment.
         </p>
         <a href="https://github.com/mtuntang/Scribe" class="m-2 btn btn-outline-dark">
           <i class="fa fa-github" aria-hidden="true"></i>
@@ -106,41 +148,47 @@
       </div>
     </div>
 
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="components\projectImages\InsightUBC.png" alt="Dice Roller" style="width:100%" class="zoom">
-      <div class="w3-container w3-white w3-margin-bottom">
-        <p><b>Insight UBC</b></p>
-        <p>A RESTful web application to search courses and grades for UBC Vancouver. Users will be given a table of courses based on their requested
-          data categories and search criterion. </p>
-        <a href="https://limitless-harbor-21538.herokuapp.com/" class="m-2 btn btn-outline-primary">
-          <i class="fas fa-globe mr-1" aria-hidden="true"></i>
-          Website
-          </button>
-        </a>
-      </div>
-    </div>
 
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="components\projectImages\Tweet Classifier.png" alt="Tweet Classifier" style="width:100%" class="zoom">
-      <div class="w3-container w3-white">
-        <p><b>U.S. Presidential (Trump-vs-Biden) Tweet Classifier</b></p>
-        <p>A machine learning model (binary classifier) to classify tweets from Donald J. Trump and Joe Biden with
-          0.226 testing error. Built with Python, NumPy, scikit-learn, and pandas.</p>
-        <a href="https://github.com/mtuntang/U.S.-Presidential-Trump-vs-Biden-Tweet-Classifer-" class="m-2 btn btn-outline-dark">
-          <i class="fa fa-github" aria-hidden="true"></i>
-          GitHub
-          </button>
-        </a>
-      </div>
-    </div>
 
     <!-- Second Photo Grid-->
     <div id="secondGrid" class="w3-row-padding">
       <div class="w3-third w3-container w3-margin-bottom">
+        <img src="components\projectImages\InsightUBC.png" alt="Insight UBC" style="width:100%" class="zoom">
+        <div class="w3-container w3-white w3-margin-bottom">
+          <p><b>Insight UBC</b></p>
+          <p>A RESTful web application to search courses and grades for UBC Vancouver. Users will be given a table of
+            courses based on their requested
+            data categories and search criterion. </p>
+          <a href="https://limitless-harbor-21538.herokuapp.com/" class="m-2 btn btn-outline-primary">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i>
+            Website
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="components\projectImages\Tweet Classifier.png" alt="Tweet Classifier" style="width:100%" class="zoom">
+        <div class="w3-container w3-white">
+          <p><b>U.S. Presidential (Trump-vs-Biden) Tweet Classifier</b></p>
+          <p>A machine learning model (binary classifier) to classify tweets from Donald J. Trump and Joe Biden with
+            0.226 testing error. Built with Python, NumPy, scikit-learn, and pandas.</p>
+          <a href="https://github.com/mtuntang/U.S.-Presidential-Trump-vs-Biden-Tweet-Classifer-"
+            class="m-2 btn btn-outline-dark">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            GitHub
+            </button>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="w3-third w3-container w3-margin-bottom">
         <img src="components\projectImages\Dice Roller.png" alt="Dice Roller" style="width:100%" class="zoom">
         <div class="w3-container w3-white">
           <p><b>Dice Roller</b></p>
-          <p>A web game for two players who can't decide on something. Players can change their name, roll the dice, and then the player with the larger die wins. </p>
+          <p>A web game for two players who can't decide on something. Players can change their name, roll the dice, and
+            then the player with the larger die wins. </p>
           <a href="https://github.com/mtuntang/Dice-Roller" class="m-2 btn btn-outline-dark">
             <i class="fa fa-github" aria-hidden="true"></i>
             GitHub
@@ -153,12 +201,18 @@
           </a>
         </div>
       </div>
+    </div>
 
+
+
+    <!-- Third Photo Grid-->
+    <div id="thirdGrid" class="w3-row-padding">
       <div class="w3-third w3-container">
         <img src="components\projectImages\AutoDBSchema.png" alt="AutoDB" style="width:100%" class="zoom">
         <div class="w3-container w3-white">
           <p><b>AutoDB</b></p>
-          <p>A private auto insurance database tool built with two user classes for employees or clients. Users can add, edit, or delete fields each with respective account restrictions.</p>
+          <p>A private auto insurance database tool built with two user classes for employees or clients. Users can add,
+            edit, or delete fields each with respective account restrictions.</p>
           <a href="https://github.com/mtuntang/AutoDB" class="m-2 btn btn-outline-dark">
             <i class="fa fa-github" aria-hidden="true"></i>
             GitHub
@@ -173,23 +227,18 @@
         <img src="components\projectImages\Web Navigator.png" alt="Web Navigator" style="width:100%" class="zoom">
         <div class="w3-container w3-white">
           <p><b>Web Navigator</b></p>
-          <p>A website that serves as a hub for all the links related to UBC Okanagan. It unites information for course unions, contacts, etc into one cohesive page.</p>
-          <!-- <a href="https://github.com/mtuntang/Expense-Tracker" class="m-2 btn btn-outline-dark">
-            <i class="fa fa-github" aria-hidden="true"></i>
-            GitHub
-          </button>
-        </a> -->
+          <p>A website that serves as a hub for all the links related to UBC Okanagan. It unites information for course
+            unions, contacts, etc into one cohesive page.</p>
         </div>
       </div>
-    </div>
 
-    <!-- Third Photo Grid-->
-    <div id="thirdGrid" class="w3-row-padding">
       <div class="w3-third w3-container">
         <img src="components\projectImages\Expense Tracker.png" alt="Expense Tracker" style="width:100%" class="zoom">
         <div class="w3-container w3-white">
           <p><b>Expense Tracker</b></p>
-          <p>A Java application where users can insert, save, and update total money spent on several categories based on user input and see
+          <p>A Java application where users can insert, save, and update total money spent on several categories based
+            on
+            user input and see
             a summary.</p>
           <a href="https://github.com/mtuntang/Expense-Tracker" class="m-2 btn btn-outline-dark">
             <i class="fa fa-github" aria-hidden="true"></i>
@@ -220,16 +269,21 @@
       <div class="t row row-cols-xl-true">
         <div class="col-xl-3 col-lg col-md col-sm col">
           <div class="justify-content-center mb-2 mr-2  row">
-            <img alt="profile" src="images/Self Potrait.png" class="profile justify-content-end  img-fluid img-thumbnail">
+            <img alt="profile" src="images/Self Potrait.png"
+              class="profile justify-content-end  img-fluid img-thumbnail">
           </div>
         </div>
         <div class="row-eq-height col">
           <div class="my-details rounded  row">
             <h3>Hi there! I'm, <span class="red">Michael</span> from Vancouver, Canada.
               <br><br>
-              I am currently a fourth-year student at the <span class="red">University of British Columbia</span> majoring in Computer Science and minoring in commerce. 
+              I am currently a fourth-year student at the <span class="red">University of British Columbia</span>
+              majoring
+              in Computer Science and minoring in commerce.
               <br><br>
-              I am passionate about building software applications to solve real-life problems, most recently video games. Now I am seeking a career in game development.
+              I am passionate about building software applications to solve real-life problems, most recently video
+              games.
+              Now I am seeking a career in game development.
               <br><br>
             </h3>
           </div>
@@ -245,17 +299,17 @@
             <ul>
               <ul><b>Languages:</b>
                 <ul>
-                  Java, Python, C/C++, SQL, JavaScript, TypeScript, HTML/CSS
+                  Java, Python, C, C++, C#, SQL, JavaScript, TypeScript, HTML/CSS
                 </ul>
               </ul>
               <ul><b>Frameworks:</b>
                 <ul>
-                  Node.js, Mocha.js, Chai.js, npm, JUnit
+                  Node.js, Mocha.js, Apollo GraphQL, Chai.js, npm, JUnit
                 </ul>
               </ul>
               <ul><b>Developer Tools:</b>
                 <ul>
-                  Git, VS Code, Visual Studio, MySQL, Jupyter Notebook, IntelliJ, Eclipse, Figma
+                  Git, Jira, Perforce, VS Code, Visual Studio, Unity, MySQL, Jupyter Notebook, IntelliJ, Eclipse, Figma
                 </ul>
               </ul>
               <ul><b>Libraries:</b>
